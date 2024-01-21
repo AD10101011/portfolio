@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Adrien Hoyoux</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="circle">
+            <h1>Hi, je m'appelle Adrien</h1>
+            <h3>--- clique sur le bouton pour en savoir plus ---</h3>
+            <button onmouseenter="toggleAnimationOn()" onmouseleave="toggleAnimationOff()">Cliquez-moi</button>
+        </div>
+        <div class="image">
+            <img id="myImage" src="./img/bitmoji_moi.png" alt="Votre Image">
+        </div>
+        <div class="image-reverse">
+            <img id="myImage" src="./img/bitmoji_moi_reverse.png" alt="Votre Image">
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

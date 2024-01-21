@@ -1,0 +1,66 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.circle {
+    display: flex; /* Ajout de la propriété pour utiliser flexbox */
+    flex-direction: column; /* Ajustement de la direction des éléments */
+    align-items: center; /* Centre les éléments horizontalement */
+    justify-content: center; /* Centre les éléments verticalement */
+    width: 500px;
+    height: 500px;
+    border: 2px solid violet;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color:black ;
+    
+}
+
+body {
+    background-image:url('./img/fond.jpg') ;
+    overflow: hidden;
+}
+
+h1, h3 {
+    color: white;
+}
+
+button {
+    width: 290px;
+    height: 50px;
+    border: 2pt solid black;
+    background-color: white;
+    color: black;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 40px;
+    border-radius: 20px;
+
+}
+
+.image {
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.image,.image-reverse{
+    display: none;
+}
+
+.image-reverse{
+
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+img{
+    height: 100vh;
+}
